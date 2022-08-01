@@ -18,8 +18,8 @@ class ContactController extends Controller
        // Check mail configuration
         // Mail::to('vaneeofficialnet@gmail.com')->send(new ContactMailable($request->name, $request->message));
         // Mail::to(config('contact.send_email_to'))->send(new ContactMailable($request->name, $request->message));
-        // Contact::create($request->all());
-        // return redirect(route('contact'));
-        return config('contact.send_email_to');
+        Contact::create($request->all());
+        return redirect(route('contact'));
+        // return config('contact.send_email_to');
     }
 }
