@@ -1,0 +1,19 @@
+{
+    "name": "vanee/contact",
+    "description": "sdfjsd dsbfsdf",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vanee\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vanee",
+            "email": "vanee@tridentnets.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
